@@ -1,7 +1,5 @@
 <template>
-  <div class="fill-current">
-    <component :is="componentName" />
-  </div>
+  <component :is="componentName" />
 </template>
 
 <script lang="ts">
