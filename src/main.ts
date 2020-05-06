@@ -1,8 +1,6 @@
-import Vue from "vue";
-import App from "./App.vue";
+import Vue from 'vue'
+import VVSLogo from '@/components/VVSLogo.vue'
 
-Vue.config.productionTip = false;
+Vue.component('VVSLogo', VVSLogo)
 
-new Vue({
-  render: h => h(App)
-}).$mount("#app");
+export default VVSLogo
